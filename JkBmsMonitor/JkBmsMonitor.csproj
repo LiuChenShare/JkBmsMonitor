@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- 带 windows 平台标记才能调用 WinRT 蓝牙 API(Windows.Devices.Bluetooth) -->
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>JkBmsMonitor</RootNamespace>
+    <AssemblyName>JkBmsMonitor</AssemblyName>
+  </PropertyGroup>
+
+</Project>
